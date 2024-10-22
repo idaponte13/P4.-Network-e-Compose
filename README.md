@@ -53,4 +53,10 @@ E por último faremos un ```docker compose up``` o cal é utilizado para iniciar
 
 **2. Agora que sabes algo máis de docker-compose, crea un arquivo (ou varios arquivos) de configuración que ó ser lanzados cun docker-compose up, resulten nunha rede docker á que estean conectados 3 contenedores, explica os parámetros do .yaml usado**
 
+Os parametros utilizados neste comando son os seguinte:
+- nome do contenedor.
+- image: para definir a imaxe utilizada.  
+- container name: onde se especificará o nome do contenedor.  
+- netwotks: onde escribiremos o nome da rede.    
+
 **3. Busca e proba 4 parámetros e configuracións diferentes que podes incluir no arquivo compose, explica qué fan. (por exemplo diferentes cousas que facer coa opción RUN)**

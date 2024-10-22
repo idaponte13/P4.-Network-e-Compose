@@ -47,6 +47,10 @@ Para comprobar se o contenedor 3 e 4 poden facerse ping mutuamente realizaremolo
 
 **1. Segue os pasos da guía de iniciación de docker-compose, e explica coas túas palabras os pasos que segues e qué fan**
 
+O primeiro que se fai é crear un directorio que será utilizado para gardar tanto a páxina web, como os requerimentos como a posterior instalación destes.  
+O segundo que imos facer é crear o documento ```app.py``` onde se aloxará o código que ensina cómo crear unha aplicación web simple en Python utilizando Flask, e cómo interactuar con unha base de datos Redis para almacenar un contador de visitas que persiste entre solicitudes. É un exemplo sinxelo en Docker para amosar cómo conectar múltiples servizos.
+E por último faremos un ```docker compose up``` o cal é utilizado para iniciar e administrar a aplicación.
+
 **2. Agora que sabes algo máis de docker-compose, crea un arquivo (ou varios arquivos) de configuración que ó ser lanzados cun docker-compose up, resulten nunha rede docker á que estean conectados 3 contenedores, explica os parámetros do .yaml usado**
 
 **3. Busca e proba 4 parámetros e configuracións diferentes que podes incluir no arquivo compose, explica qué fan. (por exemplo diferentes cousas que facer coa opción RUN)**

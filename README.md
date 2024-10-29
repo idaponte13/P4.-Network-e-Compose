@@ -60,3 +60,8 @@ Os parametros utilizados neste comando son os seguinte:
 - netwotks: onde escribiremos o nome da rede.    
 
 **3. Busca e proba 4 parámetros e configuracións diferentes que podes incluir no arquivo compose, explica qué fan. (por exemplo diferentes cousas que facer coa opción RUN)**
+
+Primeiro de todo falremos do parámetro ```environment```, o cal permite establecer variables de contorno para un contenedor.  
+O segundo do cal falaremos será ```volumes```, este monta un directorio no contenedor acutal para que o código esté disponible.   
+Posteriormente o parámetro ```ports```, para o mapeado dos portos.  
+E por ultimo veremos o parámetro ```depends_on```, este define dependencias entre servizos, é dicir, especifica que contenedores deben estar activos antes de que se inicie un servicio en concreto.
